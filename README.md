@@ -28,6 +28,7 @@
 
 ## 3. Data
 ### 3.1 VGGSound Data
+    - https://huggingface.co/datasets/Loie/VGGSound
 ### 3.2 Feature Extraction
     - synchformer feature: ./feature/extract_synchformer.py
     - clip feature: ./feature/extract_clip.py
