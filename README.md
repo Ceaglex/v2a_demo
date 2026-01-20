@@ -9,19 +9,19 @@
 
 ## 2. Model Weight
 ### 2.1 CLIP
-    - download: 
+    - download: https://huggingface.co/jinaai/clip-models/blob/main/ViT-B-16.pt
     - path: ./assets/clip/ViT-B-16.pt
 ### 2.2 StableAudio
-    - download: 
+    - download: https://huggingface.co/stabilityai/stable-audio-open-1.0/tree/main/transformer
     - path: ./assets/stable_audio/ckpt/transformer/diffusion_pytorch_model.safetensors, ./stable_audio/ckpt/transformer/diffusion_pytorch_model.safetensors
 ### 2.3 Synchformer
-    - download: 
+    - download: https://huggingface.co/FunAudioLLM/ThinkSound/blob/main/synchformer_state_dict.pth
     - path: ./assets/synchformer
-### 2.4 VAE
-    - download: 
+### 2.4 VAE 
+    - download: https://huggingface.co/cvssp/audioldm2/tree/main/vae
     - path: ./assets/vae
 ### 2.5 vocoder
-    - download: 
+    - download: https://huggingface.co/cvssp/audioldm2/tree/main/vocoder
     - path: ./assets/vocoder
 
 
