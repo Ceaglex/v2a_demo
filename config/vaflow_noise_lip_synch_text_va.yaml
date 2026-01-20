@@ -70,7 +70,7 @@ data:
         # Dataset params
         load_mode_item      : video_feat_ref_lip_synch_text_with_waveform                             
         meta_dir            : ${data.vggass.meta_dir}
-        split               : train_25_gtref_VGG      
+        split               : train_25_VGG      
         dilimeter           : ${data.vggass.dilimeter}
         # Audio video params
         audio_process_config : ${data.audio_process}

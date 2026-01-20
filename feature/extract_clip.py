@@ -121,7 +121,7 @@ if __name__ == "__main__":
     os.makedirs(output_dir, exist_ok=True)
     
     # 加载CLIP模型
-    image_encoder = CLIPViT("/home/chengxin/chengxin/vasflow/assets/clip/ViT-B-16.pt")
+    image_encoder = CLIPViT("./assets/clip/ViT-B-16.pt")
     image_encoder = image_encoder.to(device)
     image_encoder.eval()
     
